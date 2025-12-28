@@ -6,14 +6,20 @@ body {
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
 footer {
   clear: both;
-  text-align: right;
+  text-align: left;
   color: midnightblue;
 }
+a{
+  clear: both;
+  text-align: left;
+  
+}
+
 .card{
   display: inline-block;
   width: 45%;
@@ -39,6 +45,9 @@ footer {
   float: right;
 
 }
+.third{
+  float: left;
+}
 
 @media (max-width:680px){
   .card{
@@ -47,6 +56,9 @@ footer {
   margin-bottom: 30px;
   text-align: justify;
     
+  }
+  h1{
+    font-size: 3rem;
   }
   .card img {
     margin-bottom: 10px;
